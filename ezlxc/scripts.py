@@ -12,6 +12,8 @@
 #       * replace _all_ os.system calls with proper API calls
 #       * add network support
 #       * add basejail support
+#       * identify any other packages needed by default so that the
+#         jail is easily usable 
 
 import argh
 import subprocess

@@ -18,7 +18,8 @@ setup(name='ezlxc',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-         'argh'
+         'argh',
+         'argparse'
           # -*- Extra requirements: -*-
       ],
       entry_points={
